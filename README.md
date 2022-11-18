@@ -1,6 +1,6 @@
 # Installation guide
 
-git clone https://github.com/divanov11/API-Authentication
+git clone https://github.com/King-Greatman-Spirit/refresh_token_authentication.git
 
 #Setup Backend
 1. cd API-Authentication/backend
