@@ -1,0 +1,35 @@
+python3.10 -m venv venv # Create a virtual environment in py3.10
+source venv/bin/activate # Activate venv on macOS.
+python -V #Python version
+pip install --upgrade pip
+pip install django
+django-admin startproject backend
+python manage.py startapp base
+ls base
+python manage.py makemigrations
+python manage.py migrate
+python3 -m pip install djangorestframework
+python3 -m pip install django-cors-headers
+#run migrations and makemigrations after installind drf
+pip install djangorestframework
+pip freeze > requirements.txt
+
+python manage.py createsuperuser
+Username: Greatman
+Email: greatman@gmail.com
+password: greatman
+
+http://127.0.0.1:8000/api/token/
+http://localhost:8000/api/token/refresh/
+
+#To decode encoded token
+https://jwt.io
+
+
+#References
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/settings.html
+
+Django - PORT 8000
+React - PORT 3000
+
+cors - Cross-Origin Resource Sharing

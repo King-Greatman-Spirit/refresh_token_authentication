@@ -1,0 +1,48 @@
+"""Create a project in react called "frontend""""
+npx create-react-app frontend
+
+"""Uninstall react-dom and react"""
+npm uninstall  react-dom react
+
+"""Install react 17 and react-dom 17"""
+npm install react@17.0.2 react-dom@17.0.2
+
+
+"""React 18 default settings"""
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+"Run react"
+npm start
+
+"""React shortcut keys"""
+rafc
+racfe
+imp
+imd
+
+"""To Fix npm ERR ERESOLVE Unable to Resolve Dependency Tree"""
+npm config set legacy-peer-deps true
+
+"install all dependencies"
+npm install
+
+npm install i react-router-dom
+npm install --save react-router-dom
+npm install react-router-dom@6
+npm uninstall react-router-dom
+
+npm install jwt-decode
+
+
